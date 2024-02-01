@@ -12,13 +12,9 @@
         <img class="logo" src="assents/Frame 6.svg" alt="Logo da alura" />
         <textarea
           class="caixa-de-texto"
-          name="caixa-de-texto"
-          id="texto"
-          cols="30"
-          rows="10"
-        >
-Digite seu texto</textarea
-        >
+          id="input-texto"
+          placeholder="Digite seu texto aqui"
+        ></textarea>
 
         <div class="container-aviso">
           <img
@@ -29,16 +25,26 @@ Digite seu texto</textarea
           <p class="aviso">Apenas letras minúsculas e sem acento.</p>
         </div>
         <div class="buttons">
-          <button type="submit" class="button-criptografar">
+          <button
+            type="submit"
+            id="criptografar"
+            onclick="criptografar()"
+            class="button-criptografar"
+          >
             Criptografar
           </button>
-          <button type="submit" class="button-descriptografar">
+          <button
+            type="submit"
+            id="descriptografar"
+            class="button-descriptografar"
+            onclick="descriptografar()"
+          >
             Descriptografar
           </button>
         </div>
       </div>
 
-      <div class="resultado">
+      <div class="resultado" id="output">
         <img
           src="assents/High quality products 1 1.svg"
           alt="Nada encontrado"
@@ -49,5 +55,6 @@ Digite seu texto</textarea
         </p>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

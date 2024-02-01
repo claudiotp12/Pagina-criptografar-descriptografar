@@ -25,6 +25,7 @@ body {
 }
 
 .caixa-de-texto {
+  height: 300px;
   margin-left: 250px;
   grid-column: 1;
   background-color: #f3f5fc;
@@ -71,8 +72,10 @@ body {
   font-size: 16px;
   border-radius: 24px;
   margin-right: 25px;
+  cursor: pointer;
 }
 .button-descriptografar {
+  cursor: pointer;
   width: 330px;
   height: 70px;
   background-color: #d8dfe8;
@@ -110,4 +113,30 @@ body {
   font-weight: 400;
   text-align: center;
   color: #495057;
+}
+.btn-copiar {
+  background-color: #f9f9f9;
+  border: 2px solid #495057;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0a3871;
+  width: 150px;
+  height: 50px;
+  margin-top: 80%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  cursor: pointer;
+}
+#input {
+  width: 345px;
+  height: 330px;
+  font-size: 20px;
+  color: var(--cortitulo);
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  resize: none;
+  outline: 0;
+  padding: 20px 20px;
+  text-transform: uppercase;
 }
